@@ -239,11 +239,11 @@ ui <- page_navbar(
                   tabPanel(
                     "Season 계절",
                     br(),
-                    h3("Seasonal Differences in Bottled Water Sales (계절에 따른 생수 매출 차이)"),
+                    h3("Seasonal Differences in Bottled Water Sales"),
                     hr(),
                     fluidRow(
                       column(6,
-                             h4("Descriptive Statistical Analysis Results (기술통계 분석 결과)"),
+                             h4("Descriptive Statistical Analysis Results"),
                              tableOutput("finding_A")
                       ),
                       column(6,
@@ -270,7 +270,7 @@ ui <- page_navbar(
                     "Region 지역",
                     br(),
                     h3("Regional Differences in Bottled Water Sales and Sales Proportion 
-                 (지역별 생수 매출 및 생수비중 차이)"),
+                "),
                     hr(),
                     fluidRow(
                       column(6,
@@ -304,7 +304,7 @@ ui <- page_navbar(
                     "Heatwave 폭염",
                     br(),
                     h3("Differences in Bottled Water Sales by Heatwave Occurrence 
-                 (폭염 발생 여부에 따른 생수 매출 차이)"),
+                 "),
                     hr(),
                     wellPanel(
                       style = "background-color: #fcf8e3; border-color: #faebcc;",
